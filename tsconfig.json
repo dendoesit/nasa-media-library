@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",           // Ensures TypeScript generates ES module syntax
+    "moduleResolution": "node",   // Use Node.js resolution for modules
+    "target": "ESNext",           // Use modern JavaScript features
+    "jsx": "react-jsx",           // Support for JSX
+    "esModuleInterop": true,      // Allows default imports from modules without default exports
+    "skipLibCheck": true          // Skips type-checking of declaration files for performance
+  }
+}
