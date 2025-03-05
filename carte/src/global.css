@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional global styles */
+body {
+    @apply font-sans antialiased text-gray-900 bg-gray-50;
+  }
+  
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    @apply w-2 bg-gray-100;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary-300 rounded-full;
+  }
+  
+  /* Form input styles */
+  input, textarea {
+    @apply focus:ring-2 focus:ring-primary-500 focus:border-transparent;
+  }
+  
+  /* Button hover states */
+  .btn-primary {
+    @apply bg-primary-600 text-white hover:bg-primary-700 transition;
+  }
